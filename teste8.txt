@@ -1,0 +1,36 @@
+class MinhaClasse
+  float a, b, c, altura, maior, soma;
+  int i, qtd;
+  string nome;
+
+{
+ nome = "Ryan"+" Eduardo" + " " + "Mansur";
+ write("Digite um número");
+ read(a);
+ write("Digite outro número: ");
+ read(b);
+ write("Digite mais um número: ");
+ read(c);
+
+ //maior = 0;
+ if ( (a>b) && (a>c) ){
+  maior = a;
+ }
+ else{
+  if (b>c){
+   maior = b;
+  }
+  else{
+   maior = c;
+  };
+ };
+do{
+ write("Altura: ");
+ read (altura);
+ soma = soma + altura;
+ i = i + 1;
+ }while( i < qtd);
+ write("O maior número é: ");
+ write(maior);
+ write(nome);
+}
